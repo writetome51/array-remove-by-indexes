@@ -1,0 +1,21 @@
+{
+  "name": "@writetome51/array-remove-items",
+  "version": "1.0.0",
+  "description": "Removes items from array, identified by indexes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "remove",
+    "items",
+    "manipulation"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@writetome51/array-get-and-remove-items": "latest"
+  }
+}
