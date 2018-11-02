@@ -1,4 +1,4 @@
-import { getAndRemoveItems } from '@writetome51/array-get-and-remove-by-indexes';
+import { getAndRemoveByIndexes } from '@writetome51/array-get-and-remove-by-indexes';
 
 
 // indexes can be negative or positive.
