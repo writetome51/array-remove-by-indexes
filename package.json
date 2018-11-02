@@ -1,5 +1,5 @@
 {
-  "name": "@writetome51/array-remove-items",
+  "name": "@writetome51/array-remove-by-indexes",
   "version": "1.0.0",
   "description": "Removes items from array, identified by indexes",
   "main": "index.js",
@@ -18,6 +18,6 @@
     "@writetome51/arrays-match": "latest"
   },
   "dependencies": {
-    "@writetome51/array-get-and-remove-items": "latest"
+    "@writetome51/array-get-and-remove-by-indexes": "latest"
   }
 }
