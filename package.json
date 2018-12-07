@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-remove-by-indexes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes items from array, identified by indexes",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/writetome51/array-remove-by-indexes#readme",
   "devDependencies": {
-    "@writetome51/arrays-match": "latest"
+    "@writetome51/arrays-match": "~1.0.4"
   },
   "dependencies": {
-    "@writetome51/array-get-and-remove-by-indexes": "latest"
+    "@writetome51/array-get-and-remove-by-indexes": "~1.0.2"
   }
 }
