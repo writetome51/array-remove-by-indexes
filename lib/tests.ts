@@ -1,4 +1,4 @@
-import { removeByIndexes } from './removeByIndexes';
+import { removeByIndexes } from './index';
 import { arraysMatch } from '@writetome51/arrays-match';
 
 

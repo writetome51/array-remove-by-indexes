@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var index_1 = require("../index");
+var index_1 = require("./index");
 var arrays_match_1 = require("@writetome51/arrays-match");
 var arr = ['he', 'llo', 'bay', 'bayyyy'];
 // Test 1: Make sure 0 removes first item:
