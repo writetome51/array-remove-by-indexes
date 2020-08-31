@@ -1,7 +1,7 @@
 import { getAndRemoveByIndexes } from '@writetome51/array-get-and-remove-by-indexes';
 
 
-// indexes can be negative or positive.
+// Negative indexes not allowed.
 
 export function removeByIndexes(indexes, array) {
     getAndRemoveByIndexes(indexes, array);
