@@ -30,8 +30,8 @@
     "@writetome51/arrays-match": ">=2.0.1"
   },
   "dependencies": {
-    "@writetome51/array-get-and-remove-by-index": "^2.0.0",
-    "@writetome51/get-array-copy": "^1.0.0",
-    "@writetome51/order-numerically": "^1.0.0"
+    "@writetome51/array-get-and-remove-by-index": ">=2.0.0",
+    "@writetome51/get-array-copy": ">=1.0.0",
+    "@writetome51/order-numerically": ">=1.0.0"
   }
 }
