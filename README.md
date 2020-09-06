@@ -1,7 +1,9 @@
-# removeByIndexes(indexes, array): void
+# removeByIndexes(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indexes,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;useRemovedItem?: (item) => void<br>): void
 
 Removes items, identified by `indexes`, from `array`.   
-Negative indexes not allowed.
+Negative indexes not allowed.  
+Optional callback `useRemovedItem()` lets you collect each removed item  
+for further manipulation.
 
 ## Examples
 ```js

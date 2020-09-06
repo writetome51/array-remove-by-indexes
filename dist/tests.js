@@ -57,8 +57,7 @@ try {
     removeByIndexes(['1'], arr);
 }
 catch (e) {
-    errorTriggered = true;
-    console.log(e.message)
+    errorTriggered = true; // 'the array does not have enough items to fulfill your request'
 }
 if (errorTriggered) console.log('test 8 passed');
 else console.log('test 8 FAILED');
