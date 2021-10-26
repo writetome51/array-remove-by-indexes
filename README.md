@@ -1,4 +1,4 @@
-# removeByIndexes(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indexes,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;useRemovedItem?: (item) => void<br>): void
+# removeByIndexes\<T\>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indexes: number[],<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array: T[],<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;useRemovedItem?: (item: T) => void<br>): void
 
 Removes items, identified by `indexes`, from `array`.   
 Negative indexes not allowed.  

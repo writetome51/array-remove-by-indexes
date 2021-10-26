@@ -1,4 +1,4 @@
-import { removeByIndexes } from './index.js';
+import { removeByIndexes } from 'index.d.ts';
 import { arraysMatch } from '@writetome51/arrays-match';
 
 let arr = ['he', 'llo', 'bay', 'bayyyy'];
