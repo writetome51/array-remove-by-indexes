@@ -11,14 +11,13 @@ export function removeByIndexes(
 	useRemovedItem = (item) => void 0
 ): void {
 	indexes = getArrayCopy(indexes);
+	orderNumerically(indexes);
 
-	__removeByIndexes(indexes, array);
+	removeInDescendingIndexOrder(indexes, array);
 
 
-	function __removeByIndexes(indexes, array) {
-		orderNumerically(indexes);
+	function removeInDescendingIndexOrder(indexes, array) {
 
-		// algorithm only works if they're removed in descending order:
 		for (let  i = indexes.length - 1;  i > -1;  --i) removeItem(indexes[i]);
 
 

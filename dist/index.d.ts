@@ -1,5 +1,5 @@
-export declare function removeByIndexes(
+export declare function removeByIndexes<T>(
 	indexes: number[],
-	array: any[],
-	useRemovedItem?: (item: any) => void
+	array: T[],
+	useRemovedItem?: (item: T) => void
 ): void;
